@@ -44,7 +44,7 @@ public class TestSettingTemp {
         System.out.println(h);
 
         String str1 = "陈帅";
-        String str2 = "唐爽";
+        String str2 = "陈帅";
         System.out.println(str1.equals(str2));
     }
 }

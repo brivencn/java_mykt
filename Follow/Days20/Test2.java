@@ -12,7 +12,8 @@ public class Test2 {
         Programmer<String> pro = new ProgrammerImpl<>();
         System.out.println(pro);
         String show = pro.show("123");
-
+        String write = pro.write(String.valueOf(456));
+        System.out.println(write);
         System.out.println(show);
         ProgrammerImpl<String> pro1 = (ProgrammerImpl<String>) pro;
         String s = pro1.showTime("456", 89);

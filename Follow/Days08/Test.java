@@ -7,6 +7,7 @@ public class Test {
         System.out.println("产品经理姓名：" + staff.getName());
         System.out.println("产品经理编号：" + staff.getNumber());
         System.out.println("产品经理工资：" + staff.getSalary());
+//        system.out.println("产品经理奖金：" + staff.getBonus());
         Manager manager = (Manager) staff;
         System.out.println("强转产品经理奖金：" + manager.getBonus());
         System.out.println("强转产品经理姓名：" + manager.getName());

@@ -59,7 +59,7 @@ public class TestLinkedList<E>{
      * @Return          Follow.Days20.TestLinkedList<E>.Node<E>
      **/
     private Node<E> node(int index) {
-        // size >> 1 代表 二进制往右移一位，相当于除以2, >> 1 比 除以2 效率更高
+        // size >> 1 代表 二进制往右移一位，相当于整除以2并向下取整 e.g. 9(1001) >> 1 = 4, >> 1 比 除以2 效率更高
         if (index < (size >> 1)) {
             // 从头开始找
             Node<E> head = first;

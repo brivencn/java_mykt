@@ -22,7 +22,7 @@ public class Test1 {
             System.out.println(i);
         }
 
-        System.out.println("-----------------增强for循环 便利 集合");
+        System.out.println("-----------------增强for循环 遍历 ArrayList 集合");
         ArrayList<String> strs = new ArrayList<>();
         strs.add("Arraylist01");
         strs.add("Arraylist02");

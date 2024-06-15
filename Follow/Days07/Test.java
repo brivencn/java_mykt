@@ -7,7 +7,8 @@ public class Test {
 //        AnimalParent animalParent = new Cat();
 //        animalParent.eat();
 //        AnimalOperation.animalEat(new Cat());
-        // 多态 向上转换，
+        // 多态 向上转换，强制转换`AnimalOperation.animalEat(new Cat());
+//        AnimalOperation.animalEat(new Dog());
 //        AnimalParent animalParent = new Cat();  //  父类引用指向 子类对象
 //        animalParent.eat();
 //        System.out.println(animalParent.weight);

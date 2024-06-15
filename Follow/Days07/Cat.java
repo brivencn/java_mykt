@@ -23,7 +23,7 @@ public class Cat extends AnimalParent {
 
     public static void wow() {
         System.out.println("狗叫");
-//        meow(); // 静态方法中不能访问非静态方法或者属性
+//        meow(); // 静态方法中不能访问非静态方法或者属性 java: 无法从静态上下文中引用非静态 方法 meow()
     }
 
 }

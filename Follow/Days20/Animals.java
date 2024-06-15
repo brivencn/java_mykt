@@ -18,7 +18,7 @@ public class Animals<E> {   //  泛型类
         this.name = name;
     }
 
-    public <M> M show(M e) {   // 泛型方法
-        return e;
+    public <M> M show(M m) {   // 泛型方法
+        return m;
     }
 }

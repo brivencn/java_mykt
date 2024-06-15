@@ -19,6 +19,7 @@ public class Test1 {
         System.out.println(s);
         String s1 = "30";
         Integer i1 = Integer.valueOf(s1);
+        System.out.println(i1);
         char ch1 = 'a';
         Integer i2 = Integer.valueOf(ch1);
         System.out.println(i2);

@@ -2,11 +2,13 @@ package Follow.Days05;
 
 public class Student extends Parent {
     public final int CODE = 200;
+
     public Student() {
         super(20);
     }
+
     public Student(int age) {
-        super(20);
+        super(age);
         System.out.println(111);
     }
 
@@ -20,7 +22,7 @@ public class Student extends Parent {
 
     public static void main(String[] args) {
         Student s1 = new Student(123);
-        System.out.println(s1.toString());
+        System.out.println(s1);
         s1.eatMate();
         System.out.println(s1.age);
     }

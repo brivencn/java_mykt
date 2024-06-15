@@ -24,5 +24,6 @@ public class Test3 {
         System.out.println(arr);
         ArrayList<String> arr2 = new ArrayList<>();
         arr2.add("string");     // 对象是String类型
+        System.out.println(arr2);
     }
 }

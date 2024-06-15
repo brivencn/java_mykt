@@ -12,7 +12,10 @@ import java.util.Scanner;
 public class Test {
 //    public static void main(String[] args) {
 //        AnimalParentInterface cat = new Cat();
-//        System.out.println(cat instanceof Dog);
+//        System.out.println(cat instanceof Dog); //false
+//        System.out.println(cat instanceof Cat); //true
+//        System.out.println(cat instanceof AnimalParentInterface); //true
+//        System.out.println(cat instanceof Object); //true
 //    }
 
 //    public static void main(String[] args) {
@@ -31,9 +34,12 @@ public class Test {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(str);
+        System.out.println(str.length());
         for (int i = 0; i<str.length(); i++) {
             System.out.println(str.charAt(i));
         }
+        sc.close();
+        System.out.println(str.substring(2, 5));
     }
 }
 

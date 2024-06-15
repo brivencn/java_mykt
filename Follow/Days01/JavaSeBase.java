@@ -1,5 +1,5 @@
 package Follow.Days01;
-/*
+/**
 	JavaSe基础语法
 */
 public class JavaSeBase {
@@ -30,7 +30,7 @@ public class JavaSeBase {
 
         // 字符串的+操作 此时作为连接运算符，而不是算术运算符
         int nums=26;
-        System.out.println("爽爽的年龄:"+nums);
+        System.out.println("123的年龄:"+nums);
         System.out.println(nums+1+"岁的帅帅爱"+num+"岁的妹妹");
         System.out.println("帅帅的年龄:"+nums+1);// 261
 

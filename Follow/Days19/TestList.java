@@ -25,7 +25,7 @@ public class TestList {
 //        collection.remove("string3"); //  Collection的remove方法是根据对象值去删除，并且删除后数组保持有序
 //        collection.get(); // Collection中没有get方法，list中才有.
 
-        List list = (List) collection;
+        List list = (List) collection;          //向下转型为List
         list.add(1, "string666");
         Iterator iterator = list.iterator();
 

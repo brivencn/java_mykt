@@ -13,6 +13,13 @@ public class ProgrammerImpl<T> implements Programmer<T> {
         return t;
     }
 
+    @Override
+    public T write(T t) {
+        System.out.println("写代码...");
+        return t;
+    }
+
+
     /**
      * @Author          陈帅
      * @Description      M是泛型方法， T是泛型接口和泛型类
